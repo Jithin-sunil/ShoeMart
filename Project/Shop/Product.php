@@ -9,6 +9,7 @@
 <?php
 ob_start();
 session_start();
+include('Head.php');
 include('../Assets/Connection/Connection.php');
 
 if (isset($_POST["btn_save"])) {
@@ -41,7 +42,7 @@ if (isset($_GET["id"])) {
 ?>
 
 <body>
-    <section class="main_content dashboard_part">
+    
         <table align="center" border="1" cellpadding="10" cellspacing="0" width="80%">
             <tr>
                 <td colspan="2" align="center">
@@ -173,9 +174,10 @@ if (isset($_GET["id"])) {
                 ?>
             </tbody>
         </table>
-    </section>
+  
     <?php
     ob_end_flush();
+    include('Foot.php');
     ?>
 </body>
 

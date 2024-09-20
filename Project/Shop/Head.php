@@ -28,6 +28,8 @@
     <!-- owl stylesheets -->
     <link rel="stylesheet" href="../Assets/Template/Main/css/owl.carousel.min.css">
     <link rel="stylesheet" href="../Assets/Template/Main/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
         media="screen">
     <!--[if lt IE 9]>
@@ -53,15 +55,14 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
-                                <a class="nav-item nav-link" href="index.html">Home</a>
-                                <a class="nav-item nav-link" href="collection.html">Collection</a>
-                                <a class="nav-item nav-link" href="shoes.html">Shoes</a>
-                                <a class="nav-item nav-link" href="racing boots.html">Racing Boots</a>
-                                <a class="nav-item nav-link" href="contact.html">Contact</a>
-                                <a class="nav-item nav-link last" href="#"><img
-                                        src="../Assets/Template/Main/images/search_icon.png"></a>
-                                <a class="nav-item nav-link last" href="contact.html"><img
-                                        src="../Assets/Template/Main/images/shop_icon.png"></a>
+                                <a class="nav-item nav-link" href="homepage.php">Home</a>
+                                <a class="nav-item nav-link" href="Product.php">Product</a>
+                                <a class="nav-item nav-link" href="ViewBooking.php">User Bookings</a>
+                                <a class="nav-item nav-link" href="myprofile.php"><i class="fa-solid fa-user"></i></a>
+
+                                <a class="nav-item nav-link" href="../Logout.php"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+
+                                
                             </div>
                         </div>
                     </nav>
